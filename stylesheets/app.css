@@ -41,7 +41,7 @@ footer li{
 }
 
 footer li a{
-	font-size: 12px;
+	font-size: 0.8571rem;
 	color: #222222;
 
 
@@ -52,24 +52,6 @@ footer li:first-child{
 
 }
 
-#foto{
-	width: 35%;
-	display: block;
-	margin: auto;
-}
-
-#foto_e-commerce{
-	width: 65%;
-	display: block;
-	margin: auto;
-}
-
-
-#foto_mobile{
-	width: 65%;
-	display: block;
-	margin: auto;
-}
 
 
 
