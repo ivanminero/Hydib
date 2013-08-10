@@ -1,58 +1,396 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Hyidib</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
 
-        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
-        <link rel="stylesheet" href="stylesheets/home.css">
-        <script src="javascripts/modernizr.foundation.js"></script>
-    </head>
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
 
-    <body>
-
-        <header>
-
-            <nav>
-              <ul>
-                <li><img src="images/Logo_hydib_white.svg" id="logosvg"></li>
-                <li><a href="clasificados.html">Clasificados</a></li>
-                <li><a href="ecommerce.html">E-commerce</a></li>
-                <li><a href="movil.html">Adaptación Móvil</a></li>
-                <li><a href="contacto.html">Contacto</a></li> 
-              </ul>
-            </nav>
-        </header>
-
- <!--        <section>
-
-            <img src="img\Cosmos07.jpg">
+  <title>Hydib | Monetizamos tu site</title>
+  
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+  
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
 
 
-        </section> -->
+  <script src="javascripts/modernizr.foundation.js"></script>
 
-       
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+
+  <header class="row">
+    <nav class="top-bar" id="top">
+      <ul>
+        <li class="name"><img src="images/Logo_hydib_white.svg" id="logosvg"></li>
+        <li class="toggle-topbar"><a href="#"></a></li>
+      </ul>
+
+      <section>
+          <ul class="left">
+             <li><a href="clasificados.html" class="smoothScroll">Clasificados</a></li>
+              <li><a href="#site_monetization" class="smoothScroll">Site Monetization</a></li>
+              <li><a href="#adaptacion_movil" class="smoothScroll">Adaptación Móvil</a></li>
+              <li><a href="#experiencias" class="smoothScroll">Experiencias</a></li>
+              <li><a href="#equipo" class="smoothScroll">Equipo</a></li>
+              <li><a href="#contacto" class="smoothScroll">Contacto</a></li>
+              <li class="has-dropdown">
+                <a href="#">Idioma</a>
+                <ul class="dropdown">
+                  <li><a href="#">English</a></li>
+                  <li><a href="#" class="active">Español</a></li>
+                  <li><a href="#">Português</a></li>
+              </li>         
+          </ul>
+      </section>
+    </nav>
+
+  </header>
+
+  <!-- <section class="row">
+    <br>
+    <article class="five columns offset-by-seven">
+      <dl class="tabs pill">
+        <dd><a href="#">English</a></dd>
+        <dd class="active"><a href="#">Español</a></dd>
+        <dd><a href="#">Português</a></dd>
+      </dl>
+    </article>
+  </section> -->
+
+  <section class="row">
+    <article class="twelve columns centered">
+      <h3>Hydib es una compañía especializada en negocios interactivos, anuncios clasificados, y la monetización de sitios web y móviles. Con nuestro apoyo ayudamos a medios digitales, pequeños y medianos sites, y editores de prensa a hacer crecer sus negocios en Internet.</h3>
+    </article>
+  </section>
+  <br>
+ 
+
+  <section class="row" id="clasificados">      
+      <article class="six columns">
+      <h4>Clasificados</h4>
+        <p>Internet ha transformado el mercado de los Clasificados; de secciones en los diarios con gran facturación, en 15 años hemos pasado a sites y aplicaciones móviles sociales, en la mayor parte no liderados por los grandes medios de comunicación. El mercado de los Clasificados en España mueve aproximadamente unos 100 MM de euros, lo que representa un 10% de la inversión publicitaria en Internet.</p>
+        <p>Nuestra especialización, experiencia y conocimiento del sector de más de 20 años, nos ha permitido transformar los negocios de prensa en negocios digitales de éxito en varias ocasiones. En otras, hemos tenido que desarrollar y mejorar los propios negocios digitales, elaborando las mejores estrategias comerciales y de producto, logrando cuotas de mercado y beneficios en cortos periodos de tiempo.
+        </p>
+      </article>
+
+      <article class="six columns">
+         
+        <h5>Podemos ayudarte con:</h5>
+
+        <ul class="disc">
+             <li>Consultoria:</li>
+                <ul>
+                  <li>Dirección y Estrategia: para comprender hacia donde han de evolucionar los negocios de clasificados en Internet.</li>
+                  <li>Ventas: Migración de ingresos tradicionales a Internet, desarrollo de negocio e incremento del ingreso medio por usuario y porcliente.</li>
+                  <li>Producto: Adaptación del producto tradicional a Internet, pricing y rendimiento.</li>
+                </ul>
+              <li>Ventas:</li>
+                <ul>
+                  <li>Creación de redes comerciales.</li>
+                  <li>Captación de clientes.</li>
+                  <li>Consecución de cuotas de mercado.</li>
+                  <li>Formación, monitorización y apoyo a los equipos comerciales internos.</li>
+                </ul>
+              <li>Formación: Seminarios y Talleres.</li>
+        </ul>
+
+      </article>
+
+      
+        <article class="six columns">
+          <h5><a href="#top" class="smoothScroll">Volver</a></h5>
+        </article>
+        <article class="six columns">
+          <h5><a href="#contacto" class="smoothScroll">Ampliar Información</a></h5>
+        </article>
+          
+  </section>
+
+  <br>
+
+  <section class="row" id="site_monetization">      
+      <article class="six columns">
+      <h4>Site Monetization</h4>
+        <p>Nuestra experiencia y trabajo ha permitido acelerar distintos negocios digitales basados en la captación y retención de pequeños y medianos anunciantes.</p>
+        <p>La garantía de éxito de cualquier negocio en Internet pasa por tener una estrategia, y un equipo comercial capaz de alcanzar la cuota me mercado necesaria para consolidar el proyecto y generar beneficios.
+        </p>
+      </article>
+
+      <article class="six columns">
+         
+        <h5>Podemos ayudarte con:</h5>
+
+        <ul class="disc">
+             <li>Consultoria:</li>
+                <ul>
+                  <li>Estrategia: trazar la mejor estrategia de producto y comercial para conseguir los objetivos definidos.</li>
+                  <li>Ventas: Análisis del sistema de comercialización y aplicación de mejoras..</li>
+                  <li>Producto: Adaptación del producto al mercado objetivo para lograr la máxima aceleración.</li>
+                </ul>
+              <li>Ventas:</li>
+                <ul>
+                  <li>Creación de redes comerciales.</li>
+                  <li>Captación de clientes.</li>
+                  <li>Consecución de cuotas de mercado.</li>
+                  <li>Formación, monitorización y apoyo a los equipos comerciales internos.</li>
+                </ul>
+              <li>Formación: Seminarios y Talleres.</li>
+        </ul>
+
+      </article>
+
+      
+        <article class="six columns">
+          <h5><a href="#top" class="smoothScroll">Volver</a></h5>
+        </article>
+        <article class="six columns">
+          <h5><a href="#contacto" class="smoothScroll">Ampliar Información</a></h5>
+        </article>
+          
+  </section>
+
+  <br>
+
+  <section class="row" id="adaptacion_movil">      
+      <article class="six columns">
+      <h4>Adaptación Móvil</h4>
+        <p>El consumo de Internet ha cambiado y ahora es multi-dispositvo, por lo tanto, hacer cualquier sitio accesible es ya una obligación. Hemos visto como negocios han llegado tarde a adaptarse al entorno móvil, otros ni siquiera han llegado, y algunos han tenido la oportunidad de posicionarse, cuando en la web convencional no podían.</p>
+        <p>Es importante conocer este nuevo entorno, que no es igual que el de web. Hacer tu negocio mobile requiere de funcionalidades específicas y el mejor entendimiento del canal para consolidar y hacer crecer tu compañía en el soporte del presente.
+        </p>
+      </article>
+
+      <article class="six columns">
+         
+        <h5>Podemos ayudarte con:</h5>
+
+        <ul class="disc">
+             <li>Consultoria:</li>
+                <ul>
+                  <li>Estrategia: comprender el entorno móvil y adaptar tu negocio al mismo.</li>
+                  <li>Ventas: como adaptar tu comercialización al canal móvil</li>
+                </ul>
+              <li>Desarrollo:</li>
+                <ul>
+                  <li>iOS: Objective-C.</li>
+                  <li>Android: Java.</li>
+                  <li>Windows Mobile: .NET.</li>
+                  <li>Firefox OS: HTML5+CSS3+Javscript.</li>
+                </ul>
+              <li>Diseño:</li>
+                <ul>
+                  <li>Sitios Responsive (adaptables): adaptación de tu sitio para ser funcional y visible en cualquier dispositvos.</li>
+                  <li>Publicidad Responsive (adaptable): adaptación de tu publicidad display a cualquier entorno de navegación web o móvil.</li>
+                  <li>Prueba de rendimiento móvil: prueba del rendimiento de tu sitio en distintos dispositivos y pantallas.</li>
+                </ul>
+              <li>Formación:</li>
+                <ul>
+                  <li>Programación: entornos iOS y Android.</li>
+                  <li>Diseño Responsive (adaptable).</li>
+                  <li>Marketing Móvil.</li>
+                </ul>
+        </ul>
+
+      </article>
+
+      
+        <article class="six columns">
+          <h5><a href="#top" class="smoothScroll">Volver</a></h5>
+        </article>
+        <article class="six columns">
+          <h5><a href="#contacto" class="smoothScroll">Ampliar Información</a></h5>
+        </article>
+          
+  </section>
+
+   <br>
+
+  <section class="row" id="experiencias">
+    <article class="twelve columns">
+        <h4>Experiencias</h4>
+      </article>        
+      <article class="six columns">
+        <figure>
+          <a href="http://www.tucasa.com"><img src="images/tucasa_logo.png"></a>
+        </figure>
+        <br>
+        <p><a href="http://www.tucasa.com">Tucasa.com</a> es un portal inmobiliario nacional que actualmente cuenta con una oferta de más XXXXX inmuebles, XXX clientes activos, csfrdsfsasaasada.</p>
+      </article>
+
+      <article class="six columns">
+         
+        <h5>Que hemos conseguido:</h5>
+
+        <ul class="disc">
+             <li>Clientes: Incrementar en un % el número de clientes en 6 meses durante 2013</li>
+              <li>Ventas: Incrementar las ventas en un % en 2013.</li>
+              <li>Estrategia Comercial: Definición de la estrategia comercial para alcanzar el objetivo de clientes y ventas de la compañía.</li>
+              <li>Producto: Creación del producto para el desarrollo de la estrategia comercial.</li>
+        </ul>
+
+      </article>
+
+      
+        <article class="six columns">
+          <h5><a href="#top" class="smoothScroll">Volver</a></h5>
+        </article>
+        <article class="six columns">
+          <h5><a href="#contacto" class="smoothScroll">Ampliar Información</a></h5>
+        </article>
+          
+  </section>
+
+  <section class="row" id="equipo">
+      <article class="twelve columns">
+        <h4>Equipo</h4>
+      </article>    
+      <article class="six columns">
+        
+        <h5>Alejandra Fernández</h5>
+        <figure>
+          <img src="images/alejandra_fernandez.jpg">
+        </figure>
+        <br>
+        <p><b>Alejandra Fernández</b> es una de las mejores profesionales en el ámbito de los clasificados y publicidad local. Su experiencia superior a 15 años en el negocio le ha permitido trabajar para compañías como Anuntis-Segundamano, Vocento, QDQ Media y Banco Santander. Ha participado en el lanzamiento y desarrollo del negocio de portales como www.fotocasa.es, www.pisos.com, www.segundamano.es y  www.tucasa.com</p>
+
+        <h5>Referencias y contacto:</h5>
+
+        <ul class="disc">
+             <li>email: <a href="mailto:alejanda@hydib.com">alejandra@hydib.com</a></li>
+              <li>LinkedIn: <a href="http://es.linkedin.com/pub/alejandra-fernandez-aparicio/21/54a/223">Alejandra Fernández</a>.</li>
+        </ul>
+
+      </article>
+
+      <article class="six columns">
+
+         <h5>Alejandra Fernández</h5>
+        <figure>
+          <img src="images/alejandra_fernandez.jpg">
+        </figure>
+        <br>
+        <p><b>Alejandra Fernández</b> es una de las mejores profesionales en el ámbito de los clasificados y publicidad local. Su experiencia superior a 15 años en el negocio le ha permitido trabajar para compañías como Anuntis-Segundamano, Vocento, QDQ Media y Banco Santander. Ha participado en el lanzamiento y desarrollo del negocio de portales como www.fotocasa.es, www.pisos.com, www.segundamano.es y  www.tucasa.com</p>
+
+        <h5>Referencias y contacto:</h5>
+
+        <ul class="disc">
+             <li>email: <a href="mailto:alejanda@hydib.com">alejandra@hydib.com</a></li>
+              <li>LinkedIn: <a href="http://es.linkedin.com/pub/alejandra-fernandez-aparicio/21/54a/223">Alejandra Fernández</a>.</li>
+        </ul>
+         
+        
 
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
-         <script src="javascripts/jquery.js"></script>
-        <script src="javascripts/foundation.min.js"></script>
+      </article>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
+
+      <article class="six columns">
+          <h5><a href="#top" class="smoothScroll">Volver</a></h5>
+      </article>
+      <article class="six columns">
+          <h5><a href="#contacto" class="smoothScroll">Ampliar Información</a></h5>
+      </article>
+
+  </section>
+
+
+  <br>
+
+  <section class="row" id="contacto">      
+      <article class="six columns">
+      <h4>Contacto</h4>
+          <ul class="disc">
+             <li>email: <a href="mailto:hello@hydib.com">hello@hydib.com</a></li>
+              <li>Tel: +34.</li>
+              <li>Plaza Luca de Tena 3, 1º B. 28005 Madrid, Spain</li>
+        </ul>
+      </article>
+
+      <article class="six columns">
+
+      </article>
+
+      <article class="six columns">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h5><a href="#top" class="smoothScroll">Volver</a></h5>
+      </article>
+      <article class="six columns">
+         
+      </article>
+          
+  </section>
+  
+
+
+    <footer class="row">       
+      <ul>
+          <li><a href="#politica">Política de Privacidad</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </footer>
+
+
+  
+  
+  <!-- Included JS Files (Uncompressed) -->
+  <!--
+  
+  <script src="javascripts/jquery.js"></script>
+  
+  <script src="javascripts/jquery.foundation.mediaQueryToggle.js"></script>
+  
+  <script src="javascripts/jquery.foundation.forms.js"></script>
+  
+  <script src="javascripts/jquery.foundation.reveal.js"></script>
+  
+  <script src="javascripts/jquery.foundation.orbit.js"></script>
+  
+  <script src="javascripts/jquery.foundation.navigation.js"></script>
+  
+  <script src="javascripts/jquery.foundation.buttons.js"></script>
+  
+  <script src="javascripts/jquery.foundation.tabs.js"></script>
+  
+  <script src="javascripts/jquery.foundation.tooltips.js"></script>
+  
+  <script src="javascripts/jquery.foundation.accordion.js"></script>
+  
+  <script src="javascripts/jquery.placeholder.js"></script>
+  
+  <script src="javascripts/jquery.foundation.alerts.js"></script>
+  
+  <script src="javascripts/jquery.foundation.topbar.js"></script>
+  
+  -->
+  
+  <!-- Included JS Files (Compressed) -->
+  <script src="javascripts/jquery.js"></script>
+  <script src="javascripts/foundation.min.js"></script>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="javascripts/app.js"></script>
+
+    <!-- Initialize Smooth Scroll JS -->
+  <script type="text/javascript" src="javascripts/smoothscroll.js"></script>
+</body>
 </html>
