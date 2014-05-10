@@ -6,7 +6,11 @@ body{
 	color:#4A4A4A;
 }
 
-#clasificados{
+#poli{
+	color:#000000;
+}
+
+#publicidad_local{
 	background-color:#f2f2f2;
 	border:1px solid;
 	border-color:#e6e6e6;
@@ -19,6 +23,12 @@ body{
 }
 
 #equipo{
+	background-color:#f2f2f2;
+	border:1px solid;
+	border-color:#e6e6e6;
+}
+
+#politica_privacidad{
 	background-color:#f2f2f2;
 	border:1px solid;
 	border-color:#e6e6e6;
